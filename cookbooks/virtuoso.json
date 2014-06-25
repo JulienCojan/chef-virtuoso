@@ -1,0 +1,7 @@
+{
+  "virtuoso": {
+    "code_dir": "/home/admin/dev/virtuoso", 
+    "code_user": "admin", 
+    "code_group": "admin"},
+  "run_list": [ "recipe[apt]", "recipe[virtuoso]" ]
+}

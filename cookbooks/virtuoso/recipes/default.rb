@@ -65,7 +65,7 @@ bash 'compile' do
     ./configure --prefix="#{install_dir}" --program-transform-name="s/isql/isql-v/"
     make
   EOH
-  action :nothing
+  action :run
   notifies :run, "execute[install]"
 end
 	
